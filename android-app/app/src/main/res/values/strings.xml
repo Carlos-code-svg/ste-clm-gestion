@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">STE-CLM</string>
+    <string name="welcome_message">Bienvenido al STE-CLM</string>
+    <string name="interest_title">Selecciona tus intereses</string>
+    <string name="primary">Primaria</string>
+    <string name="secondary">Secundaria</string>
+    <string name="transfer_competition">Concurso Traslados</string>
+    <string name="training">Formación</string>
+    <string name="save_interests">Guardar intereses</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="register">Registrarse</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="register_as_affiliate">Registrarse como afiliado</string>
+    <string name="register_as_free">Registro libre</string>
+</resources>

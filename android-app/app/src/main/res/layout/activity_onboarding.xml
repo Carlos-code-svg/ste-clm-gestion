@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/interest_title"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black" />
+
+    <CheckBox
+        android:id="@+id/cb_primary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/primary"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/cb_secondary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/secondary"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/cb_transfer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/transfer_competition"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/cb_training"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/training"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/save_interests"
+        android:backgroundTint="#E91E63" />
+
+</LinearLayout>
