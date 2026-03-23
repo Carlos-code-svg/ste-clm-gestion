@@ -8,15 +8,21 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        ste: {
-          pink: '#E91E63',
-          darkPink: '#C2185B',
-          light: '#fdf2f8',
+        brand: {
+          primary: '#0f172a', // Deep Slate
+          accent: '#6366f1',  // Indigo
+          highlight: '#f43f5e', // Professional Rose (for STE-CLM touch)
+          surface: '#ffffff',
+          muted: '#64748b',
         },
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        sans: ['"Plus Jakarta Sans"', 'Inter', 'sans-serif'],
       },
+      boxShadow: {
+        'premium': '0 20px 50px -12px rgba(0, 0, 0, 0.08)',
+        'inner-soft': 'inset 0 2px 4px 0 rgba(0, 0, 0, 0.02)',
+      }
     },
   },
   plugins: [],

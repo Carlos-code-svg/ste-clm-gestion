@@ -1,21 +1,26 @@
-# STE-CLM Web - Vercel Ready
+# 🚀 STE-CLM | Plataforma de Gestión Corporativa
 
-Esta es la plataforma de gestión moderna para el STE-CLM, diseñada para ser desplegada en **Vercel**.
+Esta es la plataforma de gestión moderna y profesional diseñada para el **STE-CLM de Albacete**. Construida con las tecnologías más punteras del sector para garantizar rapidez, seguridad y una experiencia de usuario excepcional.
 
-## 🚀 Tecnologías
-- **Next.js**: Framework de React para el máximo rendimiento.
-- **Tailwind CSS**: Estilos modernos y profesionales.
-- **Vercel**: Despliegue en la nube con un solo clic.
+## �️ Stack Tecnológico
+- **Next.js 14**: Framework de React para el máximo rendimiento y SEO.
+- **TypeScript**: Tipado estático para un código robusto y sin errores.
+- **Tailwind CSS**: Estilos modernos y totalmente responsivos.
+- **Framer Motion**: Animaciones fluidas para una interfaz "viva".
+- **Lucide React**: Iconografía moderna y minimalista.
 
-## 📁 Estructura
-- `/pages/index.js`: Página principal que incluye el Login y el Panel de Gestión.
-- `/styles/globals.css`: Estilos globales y configuración de Tailwind.
+## 📁 Estructura del Proyecto
+- `/pages`: Contiene las rutas de la aplicación (Login y Dashboard).
+- `/styles`: Estilos globales configurados con Tailwind.
+- `/public`: Activos estáticos como el logo del sindicato.
+- `tsconfig.json`: Configuración de TypeScript.
+- `tailwind.config.js`: Configuración de colores corporativos.
 
-## 🛠️ Cómo Desplegar en Vercel
-1. Crea un repositorio en GitHub (ej: `ste-clm-web`).
-2. Sube el contenido de la carpeta `web-vercel` a ese repositorio.
-3. Entra en [Vercel.com](https://vercel.com) e importa el proyecto desde GitHub.
-4. Vercel detectará que es un proyecto Next.js y lo desplegará automáticamente.
+## � Despliegue en Vercel
+1. Crea un nuevo repositorio en **GitHub**.
+2. Sube el contenido de esta carpeta `web-vercel`.
+3. Conecta el repositorio en [Vercel.com](https://vercel.com).
+4. El despliegue se realizará automáticamente con un dominio `.vercel.app`.
 
 ---
-Desarrollado para las prácticas de 2º DAM - STE-CLM Albacete.
+**Desarrollado para las Prácticas de 2º DAM - STE-CLM**
